@@ -1,0 +1,24 @@
+{
+  "name": "node-spider",
+  "version": "0.0.1",
+  "description": "Web Crawler",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smadey/node-spider.git"
+  },
+  "author": "Smadey<smadey@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smadey/node-spider/issues"
+  },
+  "homepage": "https://github.com/smadey/node-spider#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "cheerio": "^0.20.0",
+    "phantom": "^2.1.9"
+  }
+}
